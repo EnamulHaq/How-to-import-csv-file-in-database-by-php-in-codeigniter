@@ -1,0 +1,89 @@
+-- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Jan 23, 2019 at 06:49 AM
+-- Server version: 10.1.31-MariaDB
+-- PHP Version: 7.2.3
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `import_csv`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user`
+--
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `roll` text NOT NULL,
+  `name` text NOT NULL,
+  `mark` text NOT NULL,
+  `comment` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id`, `roll`, `name`, `mark`, `comment`) VALUES
+(19, '209556', 'Md Enamul Haq', '24', 'ok'),
+(20, '1001', 'Md Jami Islam', '30', 'ok'),
+(21, '1006', 'Md Bodiuzzaman', '18', 'test'),
+(22, '209556', 'Md Enamul Haq', '24', 'ok'),
+(23, '1001', 'Md Jami Islam', '30', 'ok'),
+(24, '1006', 'Md Bodiuzzaman', '18', 'test'),
+(25, '209556', 'Md Enamul Haq', '24', 'ok'),
+(26, '1001', 'Md Jami Islam', '30', 'ok'),
+(27, '1006', 'Md Bodiuzzaman', '18', 'test'),
+(28, '209556', 'Md Enamul Haq', '24', 'ok'),
+(29, '1001', 'Md Jami Islam', '30', 'ok'),
+(30, '1006', 'Md Bodiuzzaman', '18', 'test'),
+(31, '209556', 'Md Enamul Haq', '24', 'ok'),
+(32, '1001', 'Md Jami Islam', '30', 'ok'),
+(33, '1006', 'Md Bodiuzzaman', '18', 'test'),
+(34, '209556', 'Md Enamul Haq', '24', 'ok'),
+(35, '1001', 'Md Jami Islam', '30', 'ok'),
+(36, '1006', 'Md Bodiuzzaman', '18', 'test'),
+(37, '209556', 'Md Enamul Haq', '24', 'ok'),
+(38, '1001', 'Md Jami Islam', '30', 'ok'),
+(39, '1006', 'Md Bodiuzzaman', '18', 'test');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
